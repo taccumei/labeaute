@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&family=Yeseva+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app{
+  height: 100%;
+  width: 100%;
+  font-family: "Sedan", sans-serif;
+  @apply text-black;
+}
