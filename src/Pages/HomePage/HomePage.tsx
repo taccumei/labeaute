@@ -50,9 +50,9 @@ import { useState } from 'react';
 
 // export default HomePage;
     
-type Props = {
-  setSelectedPage: (value: SelectedPage) => void;
-};
+// type Props = {
+//   setSelectedPage: (value: SelectedPage) => void;
+// };
 
 const HomePage = ({ setSelectedPage }: Props) => {
   const feedbacks = [Feedback1, Feedback2, Feedback3, Feedback4, Feedback5];
